@@ -6,7 +6,6 @@
   <title>Yeah Copy — Privacy Policy</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: #000;
@@ -14,96 +13,87 @@
       padding: 40px 20px 80px;
       line-height: 1.7;
     }
-
-    .container {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      color: #fff;
-      font-size: 32px;
-      font-weight: 900;
-      letter-spacing: 6px;
-      margin-bottom: 6px;
-    }
-
-    .subtitle {
-      color: #444;
-      font-size: 12px;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-
-    .updated {
-      color: #444;
-      font-size: 12px;
-      margin-bottom: 48px;
-    }
-
-    h2 {
-      color: #fff;
-      font-size: 15px;
-      font-weight: 900;
-      margin-top: 36px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 14px;
-      margin-bottom: 12px;
-    }
-
-    .divider {
-      border: none;
-      border-top: 1px solid #1a1a1a;
-      margin: 48px 0;
-    }
-
+    .container { max-width: 680px; margin: 0 auto; }
+    h1 { color: #fff; font-size: 32px; font-weight: 900; letter-spacing: 6px; margin-bottom: 6px; }
+    .subtitle { color: #444; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
+    .updated { color: #444; font-size: 12px; margin-bottom: 48px; }
+    h2 { color: #fff; font-size: 15px; font-weight: 900; margin-top: 36px; margin-bottom: 10px; }
+    p { font-size: 14px; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 14px; margin-bottom: 6px; }
+    hr { border: none; border-top: 1px solid #1a1a1a; margin: 48px 0; }
     a { color: #888; }
     a:hover { color: #fff; }
-
-    .signoff {
-      text-align: center;
-      font-size: 28px;
-      margin-top: 48px;
-    }
+    .signoff { text-align: center; font-size: 28px; margin-top: 48px; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>YEAH COPY</h1>
     <div class="subtitle">Privacy Policy</div>
-    <div class="updated">Last updated: March 2026</div>
+    <div class="updated">Last updated: April 2026</div>
 
-    <h2>What We Collect</h2>
-    <p>We collect your email address and username when you create an account. That's used for account management only — logging in, resetting your password, that sort of thing.</p>
-    <p>We store your device's push notification token so we can send you alerts about weighbridge status changes for bridges you've favourited. If you don't enable notifications, we don't collect a token.</p>
-    <p>We store community content you submit — incident reports, bridge status updates, and comments. This content is visible to all users of the app.</p>
-    <p>We may collect anonymous, non-identifiable usage data (e.g. app crashes, feature usage) to help improve the app. This is not tied to your account.</p>
+    <h2>Who We Are</h2>
+    <p>Yeah Copy is an Australian app for truck drivers. This policy explains what personal information we collect, how we use it, and your rights under Australian privacy law, including the <em>Privacy Act 1988</em> (Cth).</p>
 
-    <h2>What We Don't Do</h2>
-    <p>We do not sell your data. We do not share your personal information with third parties for marketing purposes. We are not in the data business.</p>
+    <h2>What Information We Collect</h2>
+    <ul>
+      <li><strong style="color:#ccc">Email address</strong> — collected when you create an account. Used for login and account management only.</li>
+      <li><strong style="color:#ccc">Username</strong> — chosen by you, displayed alongside your community submissions.</li>
+      <li><strong style="color:#ccc">Push notification token</strong> — collected if you grant notification permissions. Used only to send you alerts about weighbridge status changes for bridges you've favourited.</li>
+      <li><strong style="color:#ccc">Community content</strong> — incident reports, bridge status updates, and comments you submit. This content is visible to all users of the app.</li>
+      <li><strong style="color:#ccc">Anonymous usage data</strong> — non-identifiable crash reports and feature usage analytics to help us improve the app. Not linked to your account.</li>
+    </ul>
 
-    <h2>How Your Data Is Stored</h2>
-    <p>All data is stored securely using Supabase and transmitted via HTTPS. We take reasonable steps to protect your information, but no system is perfect — use the app at your own risk.</p>
+    <h2>Location Data</h2>
+    <p>If you enable Proximity Alerts in your profile settings, Yeah Copy will access your device location in the background to notify you when you are within 20km of a weighbridge with an active status report. Location data is processed on your device only and is not stored or transmitted to our servers. This feature is entirely optional and can be disabled at any time in your profile settings. Battery usage may increase slightly when Proximity Alerts are enabled.</p>
 
-    <h2>Subscription & Payments</h2>
-    <p>Payments are processed entirely by Apple (App Store) or Google (Play Store). We do not handle or store your payment information. Any billing queries should go through your Apple or Google account.</p>
-    <p>We use RevenueCat to manage subscription status. RevenueCat receives a non-identifiable user ID to verify your subscription — no personal details are shared.</p>
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To create and manage your account</li>
+      <li>To send push notifications you've opted into</li>
+      <li>To display community-submitted content in the app</li>
+      <li>To improve app stability and performance</li>
+      <li>To investigate misuse or false reporting where required</li>
+    </ul>
+    <p>We do not use your information for advertising or marketing purposes. We do not sell your data. Ever.</p>
+
+    <h2>Third Party Services</h2>
+    <p>Yeah Copy uses the following third-party services to operate:</p>
+    <ul>
+      <li><strong style="color:#ccc">Supabase</strong> — our backend database and authentication provider. Your account data and community content is stored on Supabase infrastructure. Supabase operates data centres in multiple regions; data may be stored outside Australia. See <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
+      <li><strong style="color:#ccc">RevenueCat</strong> — manages subscription status. We share a non-identifiable user ID with RevenueCat to verify your subscription. No personal details are shared. See <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</li>
+      <li><strong style="color:#ccc">Expo / EAS</strong> — used to build and deliver the app. Expo may collect anonymous diagnostic data. See <a href="https://expo.dev/privacy">expo.dev/privacy</a>.</li>
+      <li><strong style="color:#ccc">Apple / Google</strong> — payments are processed entirely by Apple (App Store) or Google (Play Store). We do not handle or store payment card details.</li>
+    </ul>
+
+    <h2>Data Storage</h2>
+    <p>We take reasonable steps to protect your information using industry-standard security measures including HTTPS encryption and access controls. However, no internet-based system is completely secure.</p>
+    <p>Data may be stored or processed outside Australia by our third-party providers (see above). By using the app you consent to this transfer.</p>
 
     <h2>Your Rights</h2>
-    <p>You can request full deletion of your account and all associated data at any time. Just reach out on Discord and we'll sort it out: <a href="https://discord.gg/rv6zUUkzRy">discord.gg/rv6zUUkzRy</a></p>
+    <p>Under Australian privacy law you have the right to:</p>
+    <ul>
+      <li>Access the personal information we hold about you</li>
+      <li>Request correction of inaccurate information</li>
+      <li>Request deletion of your account and all associated data</li>
+    </ul>
+    <p>To exercise any of these rights, contact us on Discord: <a href="https://discord.gg/rv6zUUkzRy">discord.gg/rv6zUUkzRy</a></p>
+
+    <h2>Data Retention</h2>
+    <p>We retain your account data for as long as your account is active. Community content you've posted may remain visible after account deletion unless you specifically request its removal. Anonymous usage data is retained indefinitely in aggregated form.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Yeah Copy is not intended for users under 18 years of age. We do not knowingly collect personal information from children.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this policy from time to time. Continued use of the app means you accept the current version. We're not going to send you an email every time we change a word.</p>
+    <p>We may update this policy from time to time. Continued use of the app after an update means you accept the revised policy.</p>
 
-    <h2>Contact</h2>
-    <p>Questions or concerns? Find us on Discord: <a href="https://discord.gg/rv6zUUkzRy">discord.gg/rv6zUUkzRy</a></p>
+    <h2>Contact & Complaints</h2>
+    <p>For privacy queries or complaints, contact us on Discord: <a href="https://discord.gg/rv6zUUkzRy">discord.gg/rv6zUUkzRy</a></p>
+    <p>If you're not satisfied with our response, you can contact the Office of the Australian Information Commissioner (OAIC) at <a href="https://www.oaic.gov.au">oaic.gov.au</a>.</p>
 
-    <hr class="divider">
-
+    <hr>
     <div class="signoff">🤙</div>
   </div>
 </body>
